@@ -1,0 +1,75 @@
+body{
+	background: #404040;
+	font-family: Arial;
+	margin: 0;
+	color: #424242;
+}
+h1{
+	background: #FFF;
+	color: #404040;
+	margin: 0;
+	padding: 20px 40px;
+	box-shadow: 0px 2px 2px #555;
+}
+main{
+	display: inline-grid;
+	grid-template-columns: auto;
+	align-items: flex-start;
+	padding: 20px 40px;
+	text-align: center;
+}
+form,.ajout{
+	display: flex;
+	align-items: center;
+	background: #FFF;
+	margin: 5px 0;
+	padding: 0 10px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px #555;
+}
+input{
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+svg{
+	cursor: pointer;
+}
+
+.formulaire{
+	display: flex;
+}
+
+form{
+	margin: 5px;
+}
+
+.bouton{
+	background-color: #ff7b00;
+	color: #F2F2F2;
+	font-weight: bold;
+}
+
+.feuille{
+	background: #98CC02;
+	color: white;
+	border-radius: 8px 8px 0 0;
+	padding: 0 2.5px;
+}
+
+.tronc{
+	background: #A62D2D;
+	color: #A62D2D;
+	padding: 4px;
+}
+
+button{
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: auto;
+}
